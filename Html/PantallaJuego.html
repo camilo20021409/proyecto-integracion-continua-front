@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ingenio en clave</title>
+    <link rel="stylesheet" href="/css/stylos.css">
+</head>
+<body>
+    <div class="formulario">
+        <div class="contenedor">
+            <h1 id="pregunta">Pregunta:</h1>
+            <div>
+                <h2 id="enunciado">Dasdaskdasd</h2>
+            </div>
+           
+            <button class="button" onclick="verificarRespuesta(1)" id="opcion1">Respuesta 1</button>
+            <button class="button" onclick="verificarRespuesta(2)" id="opcion2">Respuesta 2</button>
+            <button class="button" onclick="verificarRespuesta(3)" id="opcion3">Respuesta 3</button>
+            <button class="button" onclick="verificarRespuesta(4)" id="opcion4">Respuesta 4</button>
+            <div class="contador">
+                <div class="contador-circulo contador-circulo-correcto">
+                    <img src="/images/arriba1.png" alt="Icono Correctas">
+                </div>
+                <span id="contadorCorrectas">0</span>
+                <div class="contador-circulo contador-circulo-incorrecto">
+                    <img src="/images/abajo1.png" alt="Icono Incorrectas">
+                </div>
+                <span id="contadorIncorrectas">0</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/js/PantallaJuego.js"></script>
+</body>
+</html>
+
